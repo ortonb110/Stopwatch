@@ -1,0 +1,64 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #56557F;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 800px;
+  margin: 10rem auto;
+  background-color: #DE8A88;
+  height: 35rem;
+  border-radius: 0.5rem;
+}
+.watch-card {
+  padding-top: 2rem;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-text {
+    font-size: 5rem;
+    
+}
+
+.btn-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    border: 1px solid black;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+
+    transition: background 0.2s ease-in, transform 0.2s  ease-in-out;
+}
+
+.btn:hover {
+    background-color: #56557F;
+}
+
+.btn:active {
+   
+    transform: translateY(4px);
+}
+
